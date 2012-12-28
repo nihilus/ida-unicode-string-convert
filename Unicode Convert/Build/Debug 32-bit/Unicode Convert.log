@@ -1,0 +1,104 @@
+﻿生成启动时间为 2012-12-28 16:10:38。
+     1>项目“E:\ida 插件\Unicode Convert\Unicode Convert\Unicode Convert.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Intermediate 目录。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“Build\\Debug 32-bit\Unicode Convert.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IInclude /IE:\idasdk62\Include\ /ZI /nologo /W3 /WX- /Od /Oi /Oy /D WIN32 /D _WINDOWS /D STRICT /D _USRDLL /D _DEBUG /D _CRT_SECURE_NO_DEPRECATE /D MAXSTR=1024 /D NO_OBSOLETE_FUNCS /D __NT__ /D __IDP__ /D _WINDLL /D _MBCS /GF /Gm /EHa /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Build\\Debug 32-bit\\" /Fd"Build\\Debug 32-bit\vc100.pdb" /Gz /TP /analyze- /errorReport:prompt "Source\Unicode Convert.cpp" /Wp64 /GA
+     1>cl : 命令行 warning D9035: “Wp64”选项已否决，并将在将来的版本中移除
+         Unicode Convert.cpp
+     1>e:\ida 插件\unicode convert\unicode convert\source\unicode convert.cpp(173): warning C4129: “C”: 不可识别的字符转义序列
+     1>e:\idasdk62\include\pro.h(1438): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+                 e:\idasdk62\include\pro.h(1429): 编译类 模板 成员函数“void qvector<T>::reserve(size_t)”时
+                 with
+                 [
+                     T=uchar
+                 ]
+                 e:\idasdk62\include\pro.h(2085): 参见对正在编译的类 模板 实例化“qvector<T>”的引用
+                 with
+                 [
+                     T=uchar
+                 ]
+     1>e:\idasdk62\include\pro.h(1440): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\idasdk62\include\pro.h(1438): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+                 e:\idasdk62\include\pro.h(1429): 编译类 模板 成员函数“void qvector<T>::reserve(size_t)”时
+                 with
+                 [
+                     T=area_t
+                 ]
+                 e:\idasdk62\include\area.hpp(71): 参见对正在编译的类 模板 实例化“qvector<T>”的引用
+                 with
+                 [
+                     T=area_t
+                 ]
+     1>e:\idasdk62\include\pro.h(1440): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\idasdk62\include\pro.h(1438): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+                 e:\idasdk62\include\pro.h(1429): 编译类 模板 成员函数“void qvector<T>::reserve(size_t)”时
+                 with
+                 [
+                     T=uval_t
+                 ]
+                 e:\idasdk62\include\funcs.hpp(710): 参见对正在编译的类 模板 实例化“qvector<T>”的引用
+                 with
+                 [
+                     T=uval_t
+                 ]
+     1>e:\idasdk62\include\pro.h(1440): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\idasdk62\include\pro.h(1256): warning C4267: “初始化”: 从“size_t”转换到“ssize_t”，可能丢失数据
+                 e:\idasdk62\include\pro.h(1249): 编译类 模板 成员函数“void qvector<T>::shift_down(T *,T *,size_t)”时
+                 with
+                 [
+                     T=uchar
+                 ]
+     1>e:\idasdk62\include\pro.h(1256): warning C4267: “初始化”: 从“size_t”转换到“ssize_t”，可能丢失数据
+                 e:\idasdk62\include\pro.h(1249): 编译类 模板 成员函数“void qvector<T>::shift_down(T *,T *,size_t)”时
+                 with
+                 [
+                     T=area_t
+                 ]
+     1>e:\idasdk62\include\pro.h(1256): warning C4267: “初始化”: 从“size_t”转换到“ssize_t”，可能丢失数据
+                 e:\idasdk62\include\pro.h(1249): 编译类 模板 成员函数“void qvector<T>::shift_down(T *,T *,size_t)”时
+                 with
+                 [
+                     T=uval_t
+                 ]
+     1>e:\idasdk62\include\pro.h(1438): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+                 e:\idasdk62\include\pro.h(1429): 编译类 模板 成员函数“void qvector<T>::reserve(size_t)”时
+                 with
+                 [
+                     T=char
+                 ]
+                 e:\idasdk62\include\pro.h(1700): 参见对正在编译的类 模板 实例化“qvector<T>”的引用
+                 with
+                 [
+                     T=char
+                 ]
+                 e:\idasdk62\include\kernwin.hpp(1465): 参见对正在编译的类 模板 实例化“_qstring<qchar>”的引用
+                 with
+                 [
+                     qchar=char
+                 ]
+     1>e:\idasdk62\include\pro.h(1440): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\idasdk62\include\pro.h(1256): warning C4267: “初始化”: 从“size_t”转换到“ssize_t”，可能丢失数据
+                 e:\idasdk62\include\pro.h(1249): 编译类 模板 成员函数“void qvector<T>::shift_down(T *,T *,size_t)”时
+                 with
+                 [
+                     T=char
+                 ]
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x0804" /I"Build\\Debug 32-bit\\" /IInclude /nologo /fo"Build\\Debug 32-bit\Unicode Convert.res" "Source\Unicode Convert.rc" 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\ida 插件\Unicode Convert\Build\\Debug 32-bit\Unicode Convert.plw) 与 Linker 的 OutputFile 属性值(E:\ida 插件\Unicode Convert\Build\Debug 32-bit\Unicode Convert-6.0-d.plw)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\ida 插件\Unicode Convert\Build\\Debug 32-bit\Unicode Convert-6.0-d.plw" /INCREMENTAL /NOLOGO /LIBPATH:E:\idasdk62\Lib\x86_win_vc_32\x86_win_vc_32 E:\idasdk62\Lib\x86_win_vc_32\ida.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"E:\ida 插件\Unicode Convert\Build\\Debug 32-bit\Unicode Convert.pdb" /MAP:"E:\ida 插件\Unicode Convert\Build\\Debug 32-bit\Unicode Convert.mpv" /SUBSYSTEM:WINDOWS /OPT:NOREF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\ida 插件\Unicode Convert\Build\\Debug 32-bit\Unicode Convert-6.0-d.lib" /MACHINE:X86 /DLL "Build\\Debug 32-bit\Unicode Convert.res"
+         "Build\\Debug 32-bit\Unicode Convert.obj" /export:PLUGIN 
+            正在创建库 E:\ida 插件\Unicode Convert\Build\\Debug 32-bit\Unicode Convert-6.0-d.lib 和对象 E:\ida 插件\Unicode Convert\Build\\Debug 32-bit\Unicode Convert-6.0-d.exp
+         Unicode Convert.vcxproj -> E:\ida 插件\Unicode Convert\Build\\Debug 32-bit\Unicode Convert.plw
+       FinalizeBuildStatus:
+         正在删除文件“Build\\Debug 32-bit\Unicode Convert.unsuccessfulbuild”。
+         正在对“Build\\Debug 32-bit\Unicode Convert.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\ida 插件\Unicode Convert\Unicode Convert\Unicode Convert.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01
